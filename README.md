@@ -5,8 +5,9 @@ Branch latest contains problem configuration - Loki 0.35.1, storybook  8.5.7
 
 Steps to reporducce:
 
-1. npm run build-storybook
-2. npm run loki 
+1. npm install --force
+2. npm run build-storybook
+3. npm run loki 
 
 
 Tested with Node v22.14.0.
