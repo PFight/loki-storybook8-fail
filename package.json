@@ -24,7 +24,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+	"loki": "loki --diffingEngine looks-same --chromeTolerance 3 --chromeRetries 5 --chromeConcurrency 2  --reactUri file:./storybook-static  --chromeFlags=\"--disable-web-security --hide-scrollbars --headless\""
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.17",
